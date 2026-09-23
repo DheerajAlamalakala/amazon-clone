@@ -11,7 +11,7 @@ export function addToCart(productId)
 {
   let matchingItem;
   cart.forEach((cartItem) => {
-      if(productId  === cartItemtem.productId)
+      if(productId  === cartItem.productId)
       {
         matchingItem = cartItem;
       }
