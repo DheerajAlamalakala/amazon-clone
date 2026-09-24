@@ -76,6 +76,7 @@ function updateCartQuantity()
 
 
 }
+updateCartQuantity();
 
 document.querySelectorAll(".js-add-to-cart-button").forEach((button) => {
   button.addEventListener("click", () => {
